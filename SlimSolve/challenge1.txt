@@ -1,0 +1,29 @@
+#This is a comment
+#All lines beginning with the '#' symbol are ignored by the parser
+#A comment cannot start mid-line. Either a line is a comment line or it is not
+
+#This file is a CSV-like file. The first two values are the board dimensions
+
+5, 5
+
+#Every set of three values following the board dimensions specify the game
+#	row,col,cap
+
+1, 2, 3
+1, 3, 3
+1, 4, 3
+2, 2, 1
+2, 4, 0
+2, 5, 3
+3, 1, 2
+3, 4, 2
+3, 5, 3
+4, 1, 2
+4, 2, 2
+4, 3, 1
+4, 4, 1
+4, 5, 2
+5, 5, 3
+
+
+#The file MUST be ASCII-encoded!
